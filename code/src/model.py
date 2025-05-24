@@ -23,7 +23,7 @@ class LMModel_transformer(nn.Module):
         self.pos_encoder = nn.Parameter(torch.randn(1024, 1, dim) * 0.02)   # first parameter is permitted max_sql
         encoder_layer = nn.TransformerEncoderLayer(d_model=dim,             # IO dimension
                                                     nhead=nhead,
-                                                    dim_feedforward=4 * dim,  # 前馈网络隐藏层维度
+                                                    dim_feedforward=4 * dim,  
                                                     dropout=0.5,
                                                     activation='gelu',
                                                     batch_first=False)
