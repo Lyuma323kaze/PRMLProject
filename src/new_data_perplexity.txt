@@ -1,0 +1,3 @@
+LSTM Perplexity: 363.8082905191183
+RNN Perplexity: 368.77246012492895
+Transformer Perplexity: 234.57198032473477
